@@ -1,0 +1,9 @@
+default_cfg:
+  listen_ip: '127.0.0.1'
+  listen_port: '8080'
+
+log_cfg:
+  log_path: "/logs/go_web_api/go_web_api"
+  log_size: 5
+  file_count: 3
+  log_level: "info"
